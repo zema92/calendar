@@ -1,0 +1,115 @@
+h3 {
+    margin: 0 0 10px;
+  }
+  
+  pre {
+    background-color: #f5f5f5;
+    padding: 15px;
+  }
+  
+  .calendar {
+    &__dropdown {
+      background-color: #fcd8d8;
+      // background-color: #fcebaf;
+      // background-color: #bbdeff;
+      color: black;
+      border: none;
+      border-radius: 2rem;
+      font-size: 11px;
+      font-weight: bold;
+      padding: 6px 15px;
+      outline: none;
+
+      &-menu {
+        min-width: 300px;
+        min-height: 200px; 
+        left: initial !important;
+        right: 0 !important;
+        border-radius: 0.3rem;
+        background-color: #fcd8d8;
+      }
+    }
+  }
+
+  .day-details {
+    position: absolute;
+  }
+
+  .month-nav {
+    &__btn {
+      background-color: white;
+      color: black;
+      opacity: 0.5;
+      border-radius: 50%;
+      border-color: black;
+      display: flex;
+      padding: 6px 7px;
+    }
+
+    p {
+      margin: 0 10px;
+      opacity: 1;
+    }
+  }
+
+  .pink {
+    background-color: #ffbcbc;
+  }
+
+  .yellow {
+    background-color: #fcebaf;
+  }
+
+  .blue {
+    background-color: #bbdeff;
+  }
+
+  .timeperiod {
+    div.active {
+      color: #1990ff !important;
+      background-color: transparent !important;
+      border-color: transparent transparent #1990ff !important;
+      border-width: 2px;
+      font-size: 15px;
+      font-weight: 600;
+      display: block;
+      padding: 0.5rem 4rem;
+    }
+
+    div {
+      color: #000000;
+      font-size: 15px;
+      font-weight: 600;
+      background-color: transparent !important;
+      border-color: transparent transparent #ececec !important;
+      padding: 0.5rem 4rem;
+    }
+  }
+
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #1990ff !important;
+    background-color: transparent !important;
+    border-color: transparent transparent #1990ff !important;
+    border-width: 2px;
+    font-family: "OpenSans";
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+    padding: 0.5rem 4rem;
+  }
+  
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    color: #000000;
+    font-family: "OpenSans";
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .nav-tabs .nav-link:hover:not(.active) {
+    border-color: transparent transparent transparent !important;
+  }
+  
+  .nav-tabs .nav-link:not(.active) {
+    padding: 0.5rem 4rem;
+  }
+  
